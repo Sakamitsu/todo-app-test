@@ -1,0 +1,12 @@
+.button-big {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  font-size: 1em;
+  background-color: var(--background-color-button-main);
+  color: var(--text-main);
+  cursor: pointer;
+  height: 40px;
+}
+.button-big:hover {
+ background-color: #616161;
+}

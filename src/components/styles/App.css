@@ -1,0 +1,49 @@
+:root {
+  --green: #217346;
+  --green-hover: #247F4C;
+  --gray: #595959;
+  --gray-input: #525252;
+  --gray-light: #CCCCCC;
+
+  --text-light: black;
+  --text-dark: white;
+
+  --background-color-light: white;
+  --background-color-dark: #313131;
+
+  --icon-color-dark: #B8B8B8;
+}
+
+.light-theme {
+  --text-main: var(--text-light);
+  --background-color-main: var(--background-color-light);
+  --background-color-button-main: var(--gray-light);
+  --icon-color-main: #686868;
+}
+
+.dark-theme {
+  --text-main: var(--text-dark);
+  --background-color-main: var(--background-color-dark);
+  --background-color-button-main: var(--gray);
+  --icon-color-main: var(--icon-color-dark);
+}
+
+.Main-Wrap {
+  margin: 0 auto;
+  display: flex;
+  place-items: center;
+  justify-content: center;
+  min-width: 320px;
+  min-height: 100vh;
+  background-color: var(--background-color-main);
+  text-align: center;
+  padding: 4rem;
+}
+
+.App {
+  background-color: var(--background-color-main);
+  color: var(--text-main);
+  display: grid;
+  grid-template-columns: 35% 65%;
+  grid-column-gap: 50px;
+}
